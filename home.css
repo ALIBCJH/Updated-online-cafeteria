@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sans-serif';
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(./jakes.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar {
+    position: absolute;
+    top: 20px;
+    right: 20px; /* Move navbar to the right */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 20px; /* Adjust margin-left to create space between items */
+}
+
+.navbar ul li:first-child {
+    margin-left: 0; /* Remove margin from first item */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: #009688;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.delivery{
+    color: rgb(154, 154, 218);
+    font-family: sans-serif;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-40PX);
+    top: 60%;
+    left: 40%;
+    padding: 15px 0px;
+    margin: 5px;
+}
+.delivery ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.delivery li{
+    position: relative;
+    margin-bottom: 10px;
+}
+h1{
+    color:aqua;
+}
+p {
+    color:bisque;
+}
