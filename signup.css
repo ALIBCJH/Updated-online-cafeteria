@@ -1,57 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
-    
-    }
-    
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: 100vh;
-        background: url('./jala\ 3.jpg');
-        background-size: cover;
-        background-image: url(./jala\ 3.jpg);
-        background-size: cover;
-    
-    }
-    
-    form{
-        margin-top: 50px;
-        text-align: center;
-    }
-    
-    input{
-        display: block;
-        width: 350px;
-        height:40px;
-        margin: 20px;
-        border: none;
-        outline: none;
-        font-size: 20px;
-        border-bottom: 1px solid rgb(205, 50, 50);
-        background: transparent;
-    
-    }
-    
-    button{
-        width: 350px;
-        height: 40px;
-        font-size: 20px;
-        background-color: rgb(255, 123, 0);
-        border: none;
-        color: white;
-        margin-top: 20px;
-    }
-    
-    form h1{ margin-bottom: 30px;
-        color:aquamarine
-    
-    }
-    ::placeholder{
-        color:rgb(255, 238, 0)
-    
-    }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: url("./jala\ 3.jpg");
+  background-size: cover;
+  background-image: url(./jala\ 3.jpg);
+  background-size: cover;
+  background-color: aquamarine;
+}
+
+form {
+  margin-top: 50px;
+  text-align: center;
+}
+
+input {
+  display: block;
+  width: 350px;
+  height: 40px;
+  margin: 20px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-bottom: 1px solid rgb(205, 50, 50);
+  background: transparent;
+}
+
+button {
+  width: 350px;
+  height: 40px;
+  font-size: 20px;
+  background-color: rgb(255, 123, 0);
+  border: none;
+  color: white;
+  margin-top: 20px;
+}
+
+form h1 {
+  margin-bottom: 30px;
+  color: aquamarine;
+}
+::placeholder {
+  color: rgb(255, 238, 0);
+}
